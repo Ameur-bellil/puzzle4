@@ -41,7 +41,7 @@ thmasButton.addEventListener('click', clickButton);
 
 function clickButton() {
     var URL = "https://ameur-bellil.github.io/puzzle5/" ;
-    var correctinput = parseInt(thmasInputText.value);
+    var correctinput = parseInt(thmasInputText.value.trim());
 
     if (correctinput === 32) {
         var win = window.open(URL, "_blank");
